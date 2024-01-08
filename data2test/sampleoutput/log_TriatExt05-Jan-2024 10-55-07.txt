@@ -1,0 +1,17 @@
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to parallel pool with 2 workers.
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DescripWrtDepthAbsDepth')" style="font-weight:bold">DescripWrtDepthAbsDepth</a>
+Too many input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('COFE/surfbutton3_Callback', 'C:\Users\znjubery\Box\Zaki-Jubery_Work\ResearchProjects\Co-Lead\Before_2023\Cofe\COFE.m', 407)" style="font-weight:bold">COFE/surfbutton3_Callback</a> (<a href="matlab: opentoline('C:\Users\znjubery\Box\Zaki-Jubery_Work\ResearchProjects\Co-Lead\Before_2023\Cofe\COFE.m',407,0)">line 407</a>)
+        parfor k=1:nNumIterations
+} 
+Error while evaluating UIControl Callback.
+
+matlab.internal.language.introspective.errorDocCallback('DescripWrtDepthAbsDepth')
+COFE
+
+logfilename2 =
+
+    'data2test\sampleoutput/log_TriatExt05-Jan-2024 10-56-37.txt'
+

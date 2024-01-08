@@ -1,0 +1,14 @@
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to parallel pool with 2 workers.
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('imread>get_full_filename')" style="font-weight:bold">imread>get_full_filename</a>
+File "data2test\sampleoutput\croppedimages/IMG_2389.JPG" does not exist.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('imread', 'C:\Program Files\MATLAB\R2023b\toolbox\matlab\imagesci\imread.m', 372)" style="font-weight:bold">imread</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023b\toolbox\matlab\imagesci\imread.m',372,0)">line 372</a>)
+        fullname = get_full_filename(filename);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('COFE/surfbutton3_Callback', 'C:\Users\znjubery\Box\Zaki-Jubery_Work\ResearchProjects\Co-Lead\Before_2023\Cofe\COFE.m', 407)" style="font-weight:bold">COFE/surfbutton3_Callback</a> (<a href="matlab: opentoline('C:\Users\znjubery\Box\Zaki-Jubery_Work\ResearchProjects\Co-Lead\Before_2023\Cofe\COFE.m',407,0)">line 407</a>)
+        parfor k=1:nNumIterations
+} 
+Error while evaluating UIControl Callback.
+
+COFE

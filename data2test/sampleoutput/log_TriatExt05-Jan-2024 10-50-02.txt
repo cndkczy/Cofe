@@ -1,0 +1,18 @@
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xlsread')" style="font-weight:bold">xlsread</a>
+Unable to open file 'data2test\sampleinput/sample_annotation.xlsx'.
+File
+'C:\Users\znjubery\Box\Zaki-Jubery_Work\ResearchProjects\Co-Lead\Before_2023\Cofe\data2test\sampleinput\sample_annotation.xlsx'
+not found.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('COFE/surfbutton3_Callback', 'C:\Users\znjubery\Box\Zaki-Jubery_Work\ResearchProjects\Co-Lead\Before_2023\Cofe\COFE.m', 364)" style="font-weight:bold">COFE/surfbutton3_Callback</a> (<a href="matlab: opentoline('C:\Users\znjubery\Box\Zaki-Jubery_Work\ResearchProjects\Co-Lead\Before_2023\Cofe\COFE.m',364,0)">line 364</a>)
+        [~, ~, raw] = xlsread(annotfile,rep);
+} 
+Error while evaluating UIControl Callback.
+
+close all
+COFE
+
+logfilename2 =
+
+    'data2test\sampleoutput/log_TriatExt05-Jan-2024 10-52-38.txt'
+

@@ -1,0 +1,27 @@
+﻿Genotype,Genotype Name
+Repinfo,Metadata related to the plant
+ImageID,ImageName
+RootID,Big/Small
+NDepth,Depth of root in cm
+NArea,Area of the root in cm2  ( only white pixels)
+NConArea,Area of convex hull in cm2
+NSolidity,Solidity of the root
+NCofMass,Location of the center of mass from the base of the root (vertical direction) in cm
+NRCofMass,Relative location of center of mass with respect to the depth of the root
+NMedWidth,Median of the root width measured at different depth in cm
+NMaxWidth,Maximum root width in cm
+NLofMaxWidth,Location of maximum width section from the base of the root ( vertical direction) in cm
+NRelLofMaxWidth,Relative location of the maximum width section with respect to the depth of the root
+NDAtMaxWidthL,Root density at the maxium width
+NDAtMaxWidthZ,Root density within 1 cm (up and down) around the maximum width 
+NWPA,Automatically measured angle by fitting lines on the width
+NLa,Automatically measured angle by fitting lines on the left boundary points (Left side)
+NRa,Automatically measured angle by fitting lines on the right boundary points (Right side)
+NADepth_01,Maximum location/depth where 0.1 modified root density was observed (cm)
+NADepth_02,Maximum location/depth where 0.2 modified root density was observed (cm)
+NADepth_03,Maximum location/depth where 0.3 modified root density was observed (cm)
+NADepth_04,Maximum location/depth where 0.4 modified root density was observed (cm)
+NADepth_05,Maximum location/depth where 0.5 modified root density was observed (cm)
+NADepth_06,Maximum location/depth where 0.6 modified root density was observed (cm)
+NADepth_07,Maximum location/depth where 0.7 modified root density was observed (cm)
+NADepth_08,Maximum location/depth where 0.8 modified root density was observed (cm)

@@ -1,0 +1,64 @@
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to parallel pool with 2 workers.
+
+ImageTageIdN =
+
+    'IMG_2387.JPG'
+
+
+ImageTageIdW =
+
+    'IMG_2388.JPG'
+
+IMG_2387.JPG
+7.jpg
+IMG_2388.JPG
+8.jpg
+
+ImageTageIdN =
+
+    'IMG_2389.JPG'
+
+
+ImageTageIdW =
+
+    'IMG_2390.JPG'
+
+IMG_2389.JPG
+9.jpg
+IMG_2390.JPG
+0.jpg
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.name')" style="font-weight:bold">matlab.graphics.internal.name</a>
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\print.m', 71)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023b\toolbox\matlab\graphics\printing\print.m',71,0)">line 71</a>)
+pj = matlab.graphics.internal.name( pj );
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('saveas', 'C:\Program Files\MATLAB\R2023b\toolbox\matlab\general\saveas.m', 181)" style="font-weight:bold">saveas</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023b\toolbox\matlab\general\saveas.m',181,0)">line 181</a>)
+        print( h, name, ['-d' dev{i}] )
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('MeasureAngles', 'C:\Users\znjubery\Box\Zaki-Jubery_Work\ResearchProjects\Co-Lead\Before_2023\Cofe\code\MeasureAngles.m', 133)" style="font-weight:bold">MeasureAngles</a> (<a href="matlab: opentoline('C:\Users\znjubery\Box\Zaki-Jubery_Work\ResearchProjects\Co-Lead\Before_2023\Cofe\code\MeasureAngles.m',133,0)">line 133</a>)
+saveas(h,fullfile(figsavefolder,fname2));
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('COFE/surfbutton3_Callback', 'C:\Users\znjubery\Box\Zaki-Jubery_Work\ResearchProjects\Co-Lead\Before_2023\Cofe\COFE.m', 484)" style="font-weight:bold">COFE/surfbutton3_Callback</a> (<a href="matlab: opentoline('C:\Users\znjubery\Box\Zaki-Jubery_Work\ResearchProjects\Co-Lead\Before_2023\Cofe\COFE.m',484,0)">line 484</a>)
+                    [NCa,NLa,NRa,NPCa,NBWidth]=MeasureAngles(Nrootimage,outputFolderd,filename);
+} 
+Interrupt while evaluating UIControl Callback.
+
+{Operation terminated by user during matlab.graphics.shape.internal.Button
+
+
+In matlab.graphics.controls.AxesToolbarButton
+
+In matlab.ui.controls.ToolbarPushButton
+
+In matlab.graphics.controls.internal.PostUpdatePlugin.doCacheLoad
+
+In matlab.graphics.controls.internal.PostUpdatePlugin>@()matlab.graphics.controls.internal.PostUpdatePlugin.doCacheLoad(canvasParent)
+} 
+COFE
+
+logfilename2 =
+
+    'data2test\sampleoutput/log_TriatExt05-Jan-2024 10-59-49.txt'
+

@@ -1,0 +1,15 @@
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parpool')" style="font-weight:bold">parpool</a>
+Unable to create parallel pool because creating concurrent parallel pools in the same MATLAB session is not
+supported. To delete the existing pool, use <a href="matlab:delete(gcp('nocreate'))">delete(gcp('nocreate'))</a>.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('COFE/surfbutton3_Callback', 'C:\Users\znjubery\Box\Zaki-Jubery_Work\ResearchProjects\Co-Lead\Before_2023\Cofe\COFE.m', 399)" style="font-weight:bold">COFE/surfbutton3_Callback</a> (<a href="matlab: opentoline('C:\Users\znjubery\Box\Zaki-Jubery_Work\ResearchProjects\Co-Lead\Before_2023\Cofe\COFE.m',399,0)">line 399</a>)
+        parpool('local',nop);
+} 
+Error while evaluating UIControl Callback.
+
+COFE
+
+logfilename2 =
+
+    'data2test\sampleoutput/log_TriatExt05-Jan-2024 11-12-14.txt'
+

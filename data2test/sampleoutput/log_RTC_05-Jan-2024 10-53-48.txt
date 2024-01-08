@@ -1,0 +1,6 @@
+COFE
+
+logfilename2 =
+
+    'data2test\sampleoutput/log_TriatExt05-Jan-2024 10-55-07.txt'
+

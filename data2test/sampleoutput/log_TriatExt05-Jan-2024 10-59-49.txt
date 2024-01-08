@@ -1,0 +1,29 @@
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to parallel pool with 2 workers.
+
+ImageTageIdN =
+
+    'IMG_2387.JPG'
+
+
+ImageTageIdW =
+
+    'IMG_2388.JPG'
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('saveas')" style="font-weight:bold">saveas</a>
+Unsupported format or extension: JPG
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DescripWrtDepthAbsDepth', 'C:\Users\znjubery\Box\Zaki-Jubery_Work\ResearchProjects\Co-Lead\Before_2023\Cofe\code\DescripWrtDepthAbsDepth.m', 58)" style="font-weight:bold">DescripWrtDepthAbsDepth</a> (<a href="matlab: opentoline('C:\Users\znjubery\Box\Zaki-Jubery_Work\ResearchProjects\Co-Lead\Before_2023\Cofe\code\DescripWrtDepthAbsDepth.m',58,0)">line 58</a>)
+saveas(h,fullfile(figsavefolder,fname2));
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('COFE/surfbutton3_Callback', 'C:\Users\znjubery\Box\Zaki-Jubery_Work\ResearchProjects\Co-Lead\Before_2023\Cofe\COFE.m', 461)" style="font-weight:bold">COFE/surfbutton3_Callback</a> (<a href="matlab: opentoline('C:\Users\znjubery\Box\Zaki-Jubery_Work\ResearchProjects\Co-Lead\Before_2023\Cofe\COFE.m',461,0)">line 461</a>)
+                [NDepthAdj] = DescripWrtDepthAbsDepth(Nrootimage,NPixtoCm,outputFolderc,filename);
+} 
+Error while evaluating UIControl Callback.
+
+COFE
+
+logfilename2 =
+
+    'data2test\sampleoutput/log_TriatExt05-Jan-2024 11-03-22.txt'
+

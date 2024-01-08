@@ -1,0 +1,16 @@
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to parallel pool with 2 workers.
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rgb2hsv>parseInputs')" style="font-weight:bold">rgb2hsv>parseInputs</a>
+MAP must be a Mx3 array.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rgb2hsv', 'C:\Program Files\MATLAB\R2023b\toolbox\matlab\images\rgb2hsv.m', 36)" style="font-weight:bold">rgb2hsv</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023b\toolbox\matlab\images\rgb2hsv.m',36,0)">line 36</a>)
+[r, g, b, isColorMap, isEmptyInput, isThreeChannel] = parseInputs(varargin{:});
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('segmentation_colorbased_2023', 'C:\Users\znjubery\Box\Zaki-Jubery_Work\ResearchProjects\Co-Lead\Before_2023\Cofe\code\segmentation_colorbased_2023.m', 14)" style="font-weight:bold">segmentation_colorbased_2023</a> (<a href="matlab: opentoline('C:\Users\znjubery\Box\Zaki-Jubery_Work\ResearchProjects\Co-Lead\Before_2023\Cofe\code\segmentation_colorbased_2023.m',14,0)">line 14</a>)
+I = rgb2hsv(RGB);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('COFE/surfbutton3_Callback', 'C:\Users\znjubery\Box\Zaki-Jubery_Work\ResearchProjects\Co-Lead\Before_2023\Cofe\COFE.m', 407)" style="font-weight:bold">COFE/surfbutton3_Callback</a> (<a href="matlab: opentoline('C:\Users\znjubery\Box\Zaki-Jubery_Work\ResearchProjects\Co-Lead\Before_2023\Cofe\COFE.m',407,0)">line 407</a>)
+        parfor k=1:nNumIterations
+} 
+Error while evaluating UIControl Callback.
+
