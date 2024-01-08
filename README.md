@@ -7,11 +7,12 @@ Developed by: [Zaki Jubery](mailto:znjubery@gmail.com)
 
 GUI development: Zaki Jubery
 
-
+### Updated Version
+* This version of COFE is specifically designed for users who marked a red line or red tape along the soil line during the image-capturing session. COFE employs automatic detection of the red line to identify the soil line, thereby eliminating the need for manual selection during the image-processing session.
 ### Features
 * COFE uses automated digital trimming of outlier roots to improve the estimation of root angles.
 * COFE is optimized for use on adult, field-grown plants.
-* Two steps process: image pre-processing and trait extraction. Image processing step faciliates user to annotate soil line.
+* Two steps process: image pre-processing and trait extraction. Image processing step faciliates user to annotate soil line. (for this updated version, this step is not required)
 * COFE is an adaptation of our existing software ARIA (Pace et al. 2014) which was developed for lab-based phenotyping of immature root systems.
 * Modular framework that allows extensions.  
 * GUI based framework for ease of use.
